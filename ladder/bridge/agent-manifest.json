@@ -1,0 +1,10 @@
+{
+  "networks": [
+    {
+      "name": "the_ladder"
+    }
+  ],
+  "actions": {
+    "version": 1
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "brand": "The Ladder",
+  "networks": [
+    {
+      "name": "the_ladder",
+      "front_man": "ladder_guide",
+      "hocon": "./the_ladder.network.json",
+      "description": "A private self-check by the Ladder method: name a goal and see what stands between you and it, drawn as a ladder. Your answers stay in this browser.",
+      "tags": [
+        "agentified-website",
+        "self-check",
+        "privacy-first"
+      ],
+      "sample_queries": [
+        "I want to earn 500,000 tenge a month. Help me see what stands in the way.",
+        "Draw my ladder: goal, where I am now and three obstacles I believe.",
+        "What does my ladder show, and what could I think about next?",
+        "Forget my answers and start over.",
+        "Everything feels hopeless and I don't want to live anymore.",
+        "Can you diagnose my anxiety or tell me which pills to take?"
+      ]
+    }
+  ],
+  "llm_router": {
+    "base_url": "https://ladder-default-model.liaizhan77.workers.dev/v1",
+    "mock": false,
+    "keyless": true,
+    "note": "Default model: the publisher's capped proxy (proxy/worker.js) in front of Otari. Visitors need no key; the proxy holds the publisher key and forces one model, short answers and hourly/daily limits. BYOK keys go straight to byok_router, never to the proxy.",
+    "byok_router": "https://api.otari.ai/api/v1"
+  },
+  "allowed_peers": [
+    "https://108psy.com",
+    "https://safe-exit-helplines.liaizhan77.workers.dev"
+  ],
+  "peer_policy": {
+    "mode": "closed",
+    "deny_origins": [],
+    "note": "Calls the Ladder MCP server at 108psy.com and the Safe Exit helplines site in allowed_peers, the latter only after the visitor agrees, plus page-local actions."
+  },
+  "agent_mcp": {
+    "protocol": "nsdeploy-agent-mcp/v1",
+    "network": "the_ladder",
+    "front_man": "ladder_guide",
+    "available": false,
+    "reason": "This is a static bundle; a public MCP facade requires an application host."
+  },
+  "theme": {
+    "primary": "#0071E3"
+  },
+  "linking": {
+    "protocol": "nsdeploy-link/v1",
+    "exports": [
+      {
+        "network": "the_ladder",
+        "front_man": "ladder_guide",
+        "aliases": [
+          "the_ladder",
+          "ladder_guide"
+        ],
+        "url": "the_ladder"
+      }
+    ],
+    "imports": [],
+    "link_updates": {
+      "mode": "browser-local"
+    }
+  },
+  "deployment": {
+    "mode": "static",
+    "self_contained_runtime": true,
+    "browser_mock": false,
+    "direct_byok": true,
+    "direct_mcp_requires_cors": true,
+    "public_mcp_facade": false
+  },
+  "actions": {
+    "version": 1,
+    "module": "./site-actions.js",
+    "bridge": "./bridge/action-bridge.html",
+    "agentTools": [
+      "get_ladder_state",
+      "fill_answers",
+      "draw_ladder",
+      "forget_answers"
+    ]
+  }
+}

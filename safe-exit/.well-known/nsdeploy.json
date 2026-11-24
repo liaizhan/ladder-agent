@@ -1,0 +1,18 @@
+{
+  "protocol": "nsdeploy-link/v1",
+  "exports": [
+    {
+      "network": "safe_exit",
+      "front_man": "safe_exit_assistant",
+      "aliases": [
+        "safe_exit",
+        "safe_exit_assistant"
+      ],
+      "url": "safe_exit"
+    }
+  ],
+  "imports": [],
+  "link_updates": {
+    "mode": "browser-local"
+  }
+}

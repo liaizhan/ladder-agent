@@ -1,0 +1,73 @@
+{
+  "brand": "Safe Exit",
+  "networks": [
+    {
+      "name": "safe_exit",
+      "front_man": "safe_exit_assistant",
+      "hocon": "./safe_exit.network.json",
+      "description": "Verified crisis helplines by country. Tell it only your country.",
+      "tags": [
+        "agentified-website",
+        "helplines",
+        "partner-network",
+        "privacy-first"
+      ],
+      "sample_queries": [
+        "Helplines for country KZ",
+        "Helplines for country US",
+        "I am in Ireland and need someone to talk to right now.",
+        "Helplines for country BR",
+        "Can you be my therapist?"
+      ]
+    }
+  ],
+  "llm_router": {
+    "base_url": "https://ladder-default-model.liaizhan77.workers.dev/v1",
+    "mock": false,
+    "keyless": true,
+    "note": "Free small model through a capped proxy. On deploy this becomes the Worker URL. Visitors can switch to their own key.",
+    "byok_router": "https://api.otari.ai/api/v1"
+  },
+  "allowed_peers": [],
+  "peer_policy": {
+    "mode": "closed",
+    "deny_origins": [],
+    "note": "Calls no other sites. Other agentic websites may run this network and send it only a country code."
+  },
+  "agent_mcp": {
+    "protocol": "nsdeploy-agent-mcp/v1",
+    "network": "safe_exit",
+    "front_man": "safe_exit_assistant",
+    "available": false,
+    "reason": "This is a static bundle; a public MCP facade requires an application host."
+  },
+  "theme": {
+    "primary": "#0071E3"
+  },
+  "linking": {
+    "protocol": "nsdeploy-link/v1",
+    "exports": [
+      {
+        "network": "safe_exit",
+        "front_man": "safe_exit_assistant",
+        "aliases": [
+          "safe_exit",
+          "safe_exit_assistant"
+        ],
+        "url": "safe_exit"
+      }
+    ],
+    "imports": [],
+    "link_updates": {
+      "mode": "browser-local"
+    }
+  },
+  "deployment": {
+    "mode": "static",
+    "self_contained_runtime": true,
+    "browser_mock": false,
+    "direct_byok": true,
+    "direct_mcp_requires_cors": true,
+    "public_mcp_facade": false
+  }
+}

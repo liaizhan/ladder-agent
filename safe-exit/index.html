@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Safe Exit: helplines by country</title>
+    <meta name="description" content="Verified crisis helplines by country. An open agentic website: any site's assistant can ask it for helplines and send only a country code.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assistant.css">
+    <script type="module" src="site.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">An open agentic website</p>
+      <h1>If it is hard right now, call.</h1>
+      <p class="urgent">In danger now: <a href="tel:112">112</a> in Kazakhstan and Europe, <a href="tel:911">911</a> in the US.</p>
+      <p>Safe Exit lists checked crisis helplines by country. Other agentic websites can ask it for numbers. They send only a country code, never a name or a story.</p>
+    </header>
+    <main class="layout">
+      <section class="form-card" aria-labelledby="lines-heading">
+        <h2 id="lines-heading">Helplines</h2>
+        <h3>Kazakhstan</h3>
+        <ul class="lines">
+          <li><a class="num" href="tel:112">112</a> <span>emergency services, free, 24/7</span></li>
+          <li><a class="num" href="tel:103">103</a> <span>ambulance</span></li>
+          <li><a class="num" href="tel:111">111</a> <span>trust line for family, women and children, free, 24/7, anonymous</span></li>
+          <li><a class="num" href="tel:150">150</a> <span>trust line for children and young people, Mon to Fri 9:00 to 18:00, WhatsApp <a href="https://wa.me/77081060810">+7 708 106 08 10</a></span></li>
+        </ul>
+        <h3>United States</h3>
+        <ul class="lines"><li><a class="num" href="tel:988">988</a> <span>Suicide and Crisis Lifeline, call or text, 24/7</span></li></ul>
+        <h3>United Kingdom and Ireland</h3>
+        <ul class="lines"><li><a class="num" href="tel:116123">116 123</a> <span>Samaritans, free, 24/7</span></li></ul>
+        <h3>Other countries</h3>
+        <p>Find a local line at <a href="https://findahelpline.com" rel="noopener">findahelpline.com</a>.</p>
+      </section>
+      <section class="form-card why" aria-labelledby="why-heading">
+        <h2 id="why-heading">How other sites use it</h2>
+        <ol>
+          <li>A site lists Safe Exit in its <code>links.json</code> under a name, for example <code>safe_exit</code>.</li>
+          <li>Before the first call, the visitor sees a consent card and chooses to allow it.</li>
+          <li>The caller's agent sends one field, <code>country</code>. The site's rule blocks everything else.</li>
+          <li>Safe Exit runs in the visitor's browser on the caller's model. It holds no keys and keeps no logs.</li>
+        </ol>
+      </section>
+      <section id="assistant" class="assistant" aria-labelledby="assistant-heading">
+        <h2 id="assistant-heading">Ask Safe Exit</h2>
+        <p>Tell the assistant your country. It never asks for your name or what happened.</p>
+        <p id="assistant-status" role="status">Connecting the assistant… If this message stays, the assistant could not load. The numbers above still work.</p>
+        <div id="agent-app">
+          <div data-ns-slot="header"></div>
+          <div class="assistant-panels">
+            <div data-ns-slot="chat"></div>
+            <div data-ns-slot="agents"></div>
+          </div>
+          <div data-ns-slot="settings"></div>
+        </div>
+      </section>
+    </main>
+    <footer><p>Safe Exit gives phone numbers, not advice or treatment. Open source under Apache-2.0, built on the open agentic website spec.</p></footer>
+  </body>
+</html>

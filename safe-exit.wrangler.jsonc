@@ -1,0 +1,7 @@
+{
+  // Safe Exit is a static site served as Cloudflare Workers static assets.
+  // Deploy: npx wrangler deploy -c safe-exit.wrangler.jsonc
+  "name": "safe-exit-helplines",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "safe-exit" }
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "nsdeploy-link/v1",
+  "exports": [
+    {
+      "network": "the_ladder",
+      "front_man": "ladder_guide",
+      "aliases": [
+        "the_ladder",
+        "ladder_guide"
+      ],
+      "url": "the_ladder"
+    }
+  ],
+  "imports": [],
+  "link_updates": {
+    "mode": "browser-local"
+  }
+}

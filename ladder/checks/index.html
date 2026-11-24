@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spec checks · The Ladder</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  main.checks { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  .checks h1 { font-size: clamp(26px, 6vw, 36px); margin: 0 0 8px; }
+  .checks .lead { color: var(--muted, #6e6e73); margin: 0 0 24px; }
+  .check { background: var(--tile, #f5f5f7); border-radius: 14px; padding: 16px 18px; margin: 0 0 12px; }
+  .check h2 { font-size: 17px; margin: 0 0 6px; display: flex; gap: 10px; align-items: baseline; }
+  .badge { font: 600 12px/1 system-ui, sans-serif; padding: 5px 8px; border-radius: 6px; background: #d2d2d7; color: #1d1d1f; flex: none; }
+  .badge.pass { background: #0071e3; color: #fff; }
+  .badge.fail { background: #c62828; color: #fff; }
+  .check ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; }
+  .check li { margin: 3px 0; overflow-wrap: anywhere; }
+  .err { display: block; margin-top: 4px; padding: 8px 10px; border-left: 3px solid #c62828; background: #fff; font: 13px/1.4 ui-monospace, Menlo, monospace; overflow-wrap: anywhere; }
+  #summary { font-weight: 600; margin: 0 0 18px; }
+</style>
+</head>
+<body>
+<main class="checks">
+  <h1>Spec section 6, run live</h1>
+  <p class="lead">Seven conformance checks from the Worldwide Agentic Web MVP spec, run in this browser against the real runtime, the published files and the Safe Exit site. No key is needed and nothing is stored.</p>
+  <p id="summary">Running…</p>
+  <div id="list"></div>
+  <p class="lead"><a href="../">Back to The Ladder</a></p>
+</main>
+<script type="module" src="checks.js"></script>
+</body>
+</html>

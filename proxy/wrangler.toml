@@ -1,0 +1,9 @@
+# Deployed after Aizhan's "да" on 24.11.2026. The key is not in this file or in git.
+# Aizhan adds it herself:  npx wrangler secret put OTARI_KEY
+# Until then the proxy answers 503 and visitors can use their own key.
+name = "ladder-default-model"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://liaizhan.github.io,https://safe-exit-helplines.liaizhan77.workers.dev"
