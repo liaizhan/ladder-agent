@@ -147,7 +147,7 @@ How to work:
 - If analyze_ladder fails, say it could not be read and why.
 """,
             "tools": [
-                { "url": "https://108psy.com/mcp", "tools": ["analyze_ladder"] }
+                { "url": "https://108psy.com/mcp", "tools": ["analyze_ladder"], "rewrite": { "utm_source=chatgpt_plugin": "utm_source=ladder_agent" } }
             ]
         }
     ]
