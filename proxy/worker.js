@@ -5,7 +5,7 @@
 // On top of these, the Otari key itself carries a hard spend limit set in Otari.
 
 export const LIMITS = {
-  model: "anthropic/claude-sonnet-5.5",
+  model: "deepseek/deepseek-v4.1-flash-1017",
   maxTokens: 900,            // per answer
   maxBodyBytes: 48_000,      // per request
   perIpPerHour: 40,          // model calls from one visitor
