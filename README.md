@@ -29,6 +29,25 @@ health result. Its author is the author of the Ladder method.
 Open https://liaizhan.github.io/ladder-agent/checks/ to run the seven checks from the
 spec (manifest, links, consent, peer call, cycle guard and others) against the live sites.
 
+## Use Safe Exit from your own site
+
+Safe Exit is meant to be shared. Two ways to use it:
+
+- **As a peer network.** Add it to your site's `links.json`, for example
+  `"safe_exit": "https://safe-exit-helplines.liaizhan77.workers.dev/safe_exit"`, and
+  allow only `country` to cross (`"allow": { "to_downstream": { "sly_data": ["country"] } }`).
+  Your visitor sees a consent card before the first call.
+- **As open data.** `https://safe-exit-helplines.liaizhan77.workers.dev/helplines.json`
+  has every number with the official page it was checked on and the check date. It is
+  served with `Access-Control-Allow-Origin: *`.
+
+The list lives in `safe-exit/helplines.json`. After editing it, run
+`node scripts/build-helplines.mjs`: it rebuilds the assistant's text in
+`safe_exit.hocon` and `safe_exit.network.json`, the list on the Safe Exit page and the
+country menu on The Ladder. A test fails if any copy is out of date or a number has no
+official source. Corrections are welcome as issues or pull requests, with a link to an
+official page (a government site or the line's own site).
+
 ## Run locally
 
 ```bash
@@ -40,7 +59,7 @@ node proxy/dev-server.mjs           # default model proxy on 127.0.0.1:8787
 Tests:
 
 ```bash
-node --test ladder/tests/*.mjs proxy/proxy.test.mjs
+node --test ladder/tests/*.mjs safe-exit/tests/*.mjs proxy/proxy.test.mjs
 ```
 
 ## Deploy

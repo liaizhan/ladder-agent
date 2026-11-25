@@ -1,0 +1,1066 @@
+{
+  "checked": "2026-11-25",
+  "fallback": "112 works in most countries; find a local line at https://findahelpline.com",
+  "countries": [
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.kz/situations/677/1457?lang=ru"
+        },
+        {
+          "number": "102",
+          "label": "police",
+          "source": "https://www.gov.kz/situations/677/1457?lang=ru"
+        }
+      ],
+      "lines": [
+        {
+          "number": "111",
+          "label": "state contact center for family, women's and children's rights",
+          "hours": "24/7",
+          "extra": "Kazakh and Russian",
+          "source": "https://www.gov.kz/situations/677/1457?lang=ru"
+        }
+      ]
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "unified emergency number",
+          "source": "https://www.gov.uk/foreign-travel-advice/uzbekistan/getting-help"
+        },
+        {
+          "number": "102",
+          "label": "police",
+          "source": "https://www.gov.uk/foreign-travel-advice/uzbekistan/getting-help"
+        },
+        {
+          "number": "103",
+          "label": "ambulance",
+          "source": "https://www.gov.uk/foreign-travel-advice/uzbekistan/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1259",
+          "label": "Interior Ministry line for domestic violence victims",
+          "source": "https://gov.uz/en/iiv/pages/contacts"
+        },
+        {
+          "number": "1146",
+          "label": "helpline for reporting harassment and violence",
+          "source": "https://baraka.gov.uz/en/welfare-category/reporting-an-incident-of-harassment-and-violence/"
+        }
+      ]
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "unified emergency dispatch",
+          "source": "https://mchs.gov.kg/"
+        },
+        {
+          "number": "102",
+          "label": "police",
+          "source": "https://www.gov.uk/foreign-travel-advice/kyrgyzstan/getting-help"
+        },
+        {
+          "number": "103",
+          "label": "ambulance",
+          "source": "https://www.gov.uk/foreign-travel-advice/kyrgyzstan/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "5200",
+          "label": "hotline for survivors of violence and trafficking",
+          "hours": "24/7",
+          "source": "https://mlsp.gov.kg/?s=5200"
+        },
+        {
+          "number": "111",
+          "label": "child trust line",
+          "source": "https://mlsp.gov.kg"
+        }
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.uk/foreign-travel-advice/russia/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "8-800-2000-122",
+          "label": "children's helpline, also for parents",
+          "free": true,
+          "anonymous": true,
+          "source": "https://telefon-doveria.ru/"
+        }
+      ]
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "emergency": [
+        {
+          "number": "102",
+          "label": "police",
+          "source": "https://www.gov.uk/foreign-travel-advice/ukraine/getting-help"
+        },
+        {
+          "number": "103",
+          "label": "ambulance",
+          "source": "https://www.gov.uk/foreign-travel-advice/ukraine/getting-help"
+        },
+        {
+          "number": "101",
+          "label": "fire",
+          "source": "https://www.gov.uk/foreign-travel-advice/ukraine/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "15-47",
+          "label": "government hotline on domestic and gender-based violence",
+          "anonymous": true,
+          "source": "https://www.kmu.gov.ua/news/sogodni-rozpochala-robotu-garyacha-liniya-dlya-osib-yaki-postrazhdali-vid-domashnogo-nasilstva"
+        },
+        {
+          "number": "0 800 500 335",
+          "label": "La Strada hotline on domestic violence and trafficking",
+          "free": true,
+          "extra": "116 123 from a mobile",
+          "source": "https://la-strada.org.ua/garyachi-liniyi"
+        },
+        {
+          "number": "0 800 500 225",
+          "label": "La Strada hotline for children and youth",
+          "anonymous": true,
+          "extra": "116 111 from a mobile",
+          "source": "https://la-strada.org.ua/garyachi-liniyi"
+        }
+      ]
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.uk/foreign-travel-advice/georgia/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 006",
+          "label": "national line for domestic and sexual violence",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.gov.uk/guidance/information-for-uk-nationals-affected-by-domestic-abuse-in-georgia"
+        }
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "emergency": [
+        {
+          "number": "102",
+          "label": "police",
+          "source": "https://www.gov.uk/foreign-travel-advice/azerbaijan/getting-help"
+        },
+        {
+          "number": "103",
+          "label": "ambulance",
+          "source": "https://www.gov.uk/foreign-travel-advice/azerbaijan/getting-help"
+        },
+        {
+          "number": "101",
+          "label": "fire",
+          "source": "https://www.gov.uk/foreign-travel-advice/azerbaijan/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "860",
+          "label": "state helpline on domestic and gender-based violence",
+          "extra": "from a mobile 012 860",
+          "source": "https://family.gov.az/en/post/3128/860-destek-xetti"
+        },
+        {
+          "number": "116 111",
+          "label": "child helpline",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://116111.az/"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.uk/foreign-travel-advice/turkey/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "183",
+          "label": "ALO 183 line for violence, abuse and neglect",
+          "hours": "24/7",
+          "free": true,
+          "extra": "WhatsApp +90 501 183 01 83",
+          "source": "https://www.aile.gov.tr/alo-183"
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "emergency": [
+        {
+          "number": "999",
+          "label": "emergency services (also 112)",
+          "source": "https://gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0808 2000 247",
+          "label": "National Domestic Abuse Helpline",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.nationaldahelpline.org.uk/"
+        },
+        {
+          "number": "116 123",
+          "label": "Samaritans, emotional support",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.samaritans.org/how-we-can-help/contact-samaritan/"
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services (also 999)",
+          "source": "https://112.ie/when-to-call-112/"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1800 341 900",
+          "label": "Women's Aid, domestic abuse",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.womensaid.ie/get-help/talk-to-us/"
+        },
+        {
+          "number": "116 123",
+          "label": "Samaritans, emotional support",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.samaritans.org/ireland/samaritans-ireland/"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 016",
+          "label": "Hilfetelefon, violence against women",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "extra": "18 languages",
+          "source": "https://www.hilfetelefon.de/"
+        },
+        {
+          "number": "0800 111 0 111",
+          "label": "TelefonSeelsorge, crisis support",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.telefonseelsorge.de/"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        },
+        {
+          "number": "17",
+          "label": "police",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        },
+        {
+          "number": "15",
+          "label": "medical emergency",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        },
+        {
+          "number": "114",
+          "label": "emergency by SMS for deaf people",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        }
+      ],
+      "lines": [
+        {
+          "number": "3919",
+          "label": "Violences Femmes Info",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        },
+        {
+          "number": "3114",
+          "label": "suicide prevention line",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://3114.fr/"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.sanidad.gob.es/linea024/home.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "016",
+          "label": "gender violence helpline",
+          "hours": "24/7",
+          "free": true,
+          "extra": "WhatsApp 600 000 016, 53 languages",
+          "source": "https://violenciagenero.igualdad.gob.es/informacion-3/recursos/telefono016/"
+        },
+        {
+          "number": "024",
+          "label": "suicide prevention line",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.sanidad.gob.es/linea024/home.htm"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1522",
+          "label": "anti-violence and stalking line",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.1522.eu/"
+        },
+        {
+          "number": "02 2327 2327",
+          "label": "Telefono Amico, emotional support",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.telefonoamico.it/"
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.government.nl/faq/emergency-number-112/when-can-i-call-112"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0800-2000",
+          "label": "Veilig Thuis, domestic violence and child abuse",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.veiligthuis.nl/"
+        },
+        {
+          "number": "0800-0113",
+          "label": "113 suicide prevention",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "extra": "also 113",
+          "source": "https://www.113.nl/i/luisterlijn"
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.pl/web/numer-alarmowy-112"
+        },
+        {
+          "number": "997",
+          "label": "police",
+          "source": "https://www.gov.pl/web/numer-alarmowy-112"
+        }
+      ],
+      "lines": [
+        {
+          "number": "800 120 002",
+          "label": "Niebieska Linia, domestic violence",
+          "free": true,
+          "source": "https://www.gov.pl/web/zdrowie/przemoc-domowa"
+        },
+        {
+          "number": "116 123",
+          "label": "crisis line for adults",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.gov.pl/web/cyfryzacja/infolinia-116-123--pierwsza-pomoc-psychologiczna-w-zasiegu-telefonu-i-internetu2"
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 016",
+          "label": "Kvinnofridslinjen, violence against women",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://kvinnofridslinjen.se/en/about-us/contact/"
+        },
+        {
+          "number": "90101",
+          "label": "Mind suicide prevention line",
+          "source": "https://www.1177.se/Stockholm/sjukdomar--besvar/psykiska-sjukdomar-och-besvar/sjalvmordstankar/till-dig-som-har-sjalvmordstankar/"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.bakom.admin.ch/de/weitere-nummern-kostenpflichtig-oder-gratis"
+        },
+        {
+          "number": "117",
+          "label": "police",
+          "source": "https://www.bakom.admin.ch/de/weitere-nummern-kostenpflichtig-oder-gratis"
+        },
+        {
+          "number": "144",
+          "label": "ambulance",
+          "source": "https://www.bakom.admin.ch/de/weitere-nummern-kostenpflichtig-oder-gratis"
+        }
+      ],
+      "lines": [
+        {
+          "number": "142",
+          "label": "victim support for people affected by violence",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.bj.admin.ch/de/opferhilfe"
+        },
+        {
+          "number": "143",
+          "label": "Die Dargebotene Hand, someone to talk to",
+          "anonymous": true,
+          "extra": "up to 20 Rappen per call",
+          "source": "https://www.143.ch/"
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern"
+        },
+        {
+          "number": "133",
+          "label": "police",
+          "source": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern"
+        },
+        {
+          "number": "144",
+          "label": "ambulance",
+          "source": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0800 222 555",
+          "label": "Frauenhelpline, violence against women",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.frauenhelpline.at/"
+        },
+        {
+          "number": "142",
+          "label": "TelefonSeelsorge, crisis support",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.telefonseelsorge.at/"
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1712",
+          "label": "violence helpline",
+          "hours": "Mon-Fri 09:00-18:00",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.1712.be/"
+        },
+        {
+          "number": "1813",
+          "label": "suicide prevention (Dutch)",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.zelfmoord1813.be/"
+        },
+        {
+          "number": "0800 32 123",
+          "label": "suicide prevention (French)",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.preventionsuicide.be/actualites/journee-mondiale-de-prevention-du-suicide-2026"
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "police emergency",
+          "source": "https://www.politiet.no/en/rad/emergency/"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 123",
+          "label": "Mental Helse, someone to talk to",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://mentalhelse.no/finn-hjelp/hjelpetelefonen/"
+        },
+        {
+          "number": "800 57 000",
+          "label": "helpline for victims of sexual abuse",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://dinutvei.no/en/english/the-helpline-for-victims-of-sexual-abuse-800-57-000/"
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1888",
+          "label": "Lev Uden Vold, violence hotline",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://www.levudenvold.dk/"
+        },
+        {
+          "number": "70 201 201",
+          "label": "Livslinien, suicide prevention",
+          "hours": "daily 09:00-05:00",
+          "anonymous": true,
+          "source": "https://www.livslinien.dk/"
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://europa.eu/youreurope/citizens/travel/safety/emergency/index_en.htm"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 016",
+          "label": "Nollalinja, violence in close relationships",
+          "hours": "24/7",
+          "free": true,
+          "anonymous": true,
+          "source": "https://nollalinja.fi/en/about-nollalinja/"
+        },
+        {
+          "number": "09 2525 0111",
+          "label": "MIELI crisis line (Finnish)",
+          "hours": "24/7",
+          "anonymous": true,
+          "extra": "normal call charge",
+          "source": "https://mieli.fi/tuki-ja-apu/kriisipuhelin/"
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.sns24.gov.pt/pt/tema/prevencao-e-cuidados-de-saude/prevencao-do-suicidio/"
+        }
+      ],
+      "lines": [
+        {
+          "number": "116 006",
+          "label": "APAV, victims of crime and violence",
+          "hours": "Mon-Fri 08:00-23:00",
+          "free": true,
+          "source": "https://apav.pt/"
+        },
+        {
+          "number": "1411",
+          "label": "national suicide prevention line",
+          "source": "https://portugal.gov.pt/gc25/comunicacao/noticias/nova-linha-de-prevencao-do-suicidio-entra-em-funcionamento"
+        },
+        {
+          "number": "808 24 24 24",
+          "label": "SNS 24 psychological counselling",
+          "hours": "24/7",
+          "extra": "press 4",
+          "source": "https://www.sns24.gov.pt/pt/servico/aconselhamento-psicologico-no-sns-24/"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "emergency": [
+        {
+          "number": "911",
+          "label": "emergency services",
+          "source": "https://www.gov.uk/foreign-travel-advice/usa/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1-800-799-7233",
+          "label": "National Domestic Violence Hotline",
+          "hours": "24/7",
+          "free": true,
+          "extra": "text START to 88788",
+          "source": "https://www.thehotline.org/"
+        },
+        {
+          "number": "988",
+          "label": "Suicide and Crisis Lifeline",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://988lifeline.org/"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "emergency": [
+        {
+          "number": "9-1-1",
+          "label": "emergency services",
+          "source": "https://www.canada.ca/en/public-health/services/mental-health-services/mental-health-get-help.html"
+        }
+      ],
+      "lines": [
+        {
+          "number": "9-8-8",
+          "label": "Suicide Crisis Helpline",
+          "hours": "24/7",
+          "extra": "call or text",
+          "source": "https://988.ca/"
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "emergency": [
+        {
+          "number": "911",
+          "label": "emergency services",
+          "source": "https://www.gob.mx/segob/articulos/que-es-9-1-1"
+        }
+      ],
+      "lines": [
+        {
+          "number": "079",
+          "label": "Línea de las Mujeres, violence against women",
+          "hours": "24/7",
+          "free": true,
+          "extra": "then option 1",
+          "source": "https://www.gob.mx/sesnsp/articulos/conoce-el-079-opcion-1-linea-de-bienestar-para-las-mujeres"
+        },
+        {
+          "number": "800 911 2000",
+          "label": "Línea de la Vida, mental health crisis",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.gob.mx/conasama/articulos/linea-de-la-vida-800-911-2000"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "emergency": [
+        {
+          "number": "192",
+          "label": "ambulance (SAMU)",
+          "source": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192"
+        }
+      ],
+      "lines": [
+        {
+          "number": "180",
+          "label": "Ligue 180, violence against women",
+          "hours": "24/7",
+          "free": true,
+          "extra": "WhatsApp (61) 9610-0180",
+          "source": "https://www.gov.br/pt-br/servicos/denunciar-e-buscar-ajuda-a-vitimas-de-violencia-contra-mulheres"
+        },
+        {
+          "number": "188",
+          "label": "CVV, emotional support",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.cvv.org.br/"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "emergency": [
+        {
+          "number": "911",
+          "label": "emergency services",
+          "source": "https://www.argentina.gob.ar/tema/emergencias"
+        },
+        {
+          "number": "107",
+          "label": "ambulance, Buenos Aires area",
+          "source": "https://www.argentina.gob.ar/tema/emergencias"
+        }
+      ],
+      "lines": [
+        {
+          "number": "144",
+          "label": "gender-based violence line",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.argentina.gob.ar/generos/linea-144"
+        },
+        {
+          "number": "0800-999-0091",
+          "label": "mental health urgency line",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.argentina.gob.ar/noticias/la-linea-nacional-de-orientacion-y-apoyo-en-la-urgencia-de-salud-mental-funciona-las-24-0"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "emergency": [
+        {
+          "number": "000",
+          "label": "police, fire, ambulance",
+          "source": "https://www.lifeline.org.au/get-help/"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1800 737 732",
+          "label": "1800RESPECT, domestic, family and sexual violence",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.1800respect.org.au/"
+        },
+        {
+          "number": "13 11 14",
+          "label": "Lifeline, crisis support",
+          "hours": "24/7",
+          "source": "https://www.lifeline.org.au/get-help/"
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "emergency": [
+        {
+          "number": "111",
+          "label": "police, fire, ambulance",
+          "source": "https://www.police.govt.nz/"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0800 733 843",
+          "label": "Women's Refuge Crisisline, family violence",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://womensrefuge.org.nz/"
+        },
+        {
+          "number": "1737",
+          "label": "Need to talk? Call or text",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://1737.org.nz/"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "emergency services",
+          "source": "https://www.gov.uk/foreign-travel-advice/india/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "14416",
+          "label": "Tele MANAS, mental health helpline",
+          "hours": "24/7",
+          "free": true,
+          "extra": "also 1800-89-14416",
+          "source": "https://dghs.mohfw.gov.in/national-mental-health-programme.php"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "emergency": [
+        {
+          "number": "110",
+          "label": "police",
+          "source": "https://www.city.yokohama.lg.jp/lang/residents/en/emergencies/20200221091958448.html"
+        },
+        {
+          "number": "119",
+          "label": "fire and ambulance",
+          "source": "https://www.city.yokohama.lg.jp/lang/residents/en/emergencies/20200221091958448.html"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0120-279-338",
+          "label": "Yorisoi Hotline, any problem",
+          "hours": "24/7",
+          "free": true,
+          "extra": "Japanese",
+          "source": "https://www.mhlw.go.jp/mamorouyokokoro/"
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "emergency": [
+        {
+          "number": "112",
+          "label": "police",
+          "source": "https://www.gov.uk/foreign-travel-advice/south-korea/getting-help"
+        },
+        {
+          "number": "119",
+          "label": "fire and ambulance",
+          "source": "https://www.gov.uk/foreign-travel-advice/south-korea/getting-help"
+        }
+      ],
+      "lines": [
+        {
+          "number": "109",
+          "label": "suicide prevention line",
+          "hours": "24/7",
+          "source": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1307179_1118.html"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "emergency": [
+        {
+          "number": "999",
+          "label": "police",
+          "source": "https://www.police.gov.sg/contact-us"
+        },
+        {
+          "number": "995",
+          "label": "fire and ambulance",
+          "source": "https://scdf.gov.sg/home/about-us/information-on-ems/scdf-emergency-medical-services"
+        }
+      ],
+      "lines": [
+        {
+          "number": "1800-777-0000",
+          "label": "National Anti-Violence and Sexual Harassment Helpline",
+          "source": "https://www.msf.gov.sg/what-we-do/break-the-silence/resources/useful-contacts"
+        },
+        {
+          "number": "1767",
+          "label": "Samaritans of Singapore",
+          "hours": "24/7",
+          "source": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
+        },
+        {
+          "number": "1771",
+          "label": "National Mindline",
+          "hours": "24/7",
+          "extra": "call, text or chat",
+          "source": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
+        }
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "emergency": [
+        {
+          "number": "10111",
+          "label": "police",
+          "source": "https://westerncape.gov.za/know-who-you-can-call-emergency"
+        },
+        {
+          "number": "10177",
+          "label": "ambulance",
+          "source": "https://westerncape.gov.za/know-who-you-can-call-emergency"
+        },
+        {
+          "number": "112",
+          "label": "emergency from a cell phone",
+          "source": "https://westerncape.gov.za/know-who-you-can-call-emergency"
+        }
+      ],
+      "lines": [
+        {
+          "number": "0800 567 567",
+          "label": "SADAG suicide crisis helpline",
+          "hours": "24/7",
+          "free": true,
+          "source": "https://www.sadag.org/"
+        }
+      ]
+    }
+  ]
+}
