@@ -107,7 +107,10 @@
           "url": "https://108psy.com/mcp",
           "tools": [
             "analyze_ladder"
-          ]
+          ],
+          "rewrite": {
+            "utm_source=chatgpt_plugin": "utm_source=ladder_agent"
+          }
         }
       ]
     }

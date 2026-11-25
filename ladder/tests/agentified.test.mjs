@@ -8,7 +8,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { ActionRegistry } from "../runtime/actions.js";
 import { AgentNetwork, validateNetwork } from "../runtime/kernel.js";
-import { buildToolTable, dispatchToolCall, runAgent } from "../runtime/runner.js";
+import { applyRewrites, buildToolTable, dispatchToolCall, runAgent } from "../runtime/runner.js";
 import { TraceBus } from "../runtime/trace.js";
 import { StubDocument } from "./stub_document.mjs";
 import { StubElement } from "./stub_element.mjs";
@@ -878,3 +878,23 @@ test("every review goes to the runtime's dialog because the page has none", Agen
 test("a chat form with several write actions runs them in order", AgentifiedSiteTest.testBundledFormRunsInOrder);
 test("the consent card gets focus, and focus then returns to the chat", AgentifiedSiteTest.testConsentFocusesTheCardThenTheChat);
 test("a visitor typing in the page's form keeps focus when a consent card appears", AgentifiedSiteTest.testConsentLeavesFocusInThePage);
+
+test("links from the 108psy.com reader are tagged with this site as their source", () => {
+  const network = JSON.parse(readFileSync(new URL("../the_ladder.network.json", import.meta.url), "utf8"));
+  const entries = JSON.stringify(network).includes('"rewrite"');
+  assert.ok(entries, "The network has no rewrite for the reader's links.");
+  const found = [];
+  const walk = (node) => {
+    if (Array.isArray(node)) node.forEach(walk);
+    else if (node && typeof node === "object") {
+      if (node.url === "https://108psy.com/mcp") found.push(node);
+      Object.values(node).forEach(walk);
+    }
+  };
+  walk(network);
+  assert.equal(found.length, 1);
+  const reply = "Full check: https://108psy.com/diagnostika?utm_source=chatgpt_plugin";
+  assert.equal(applyRewrites(reply, found[0].rewrite), "Full check: https://108psy.com/diagnostika?utm_source=ladder_agent");
+  assert.equal(applyRewrites(reply, undefined), reply);
+  assert.equal(applyRewrites(reply, { a: 1 }), reply);
+});

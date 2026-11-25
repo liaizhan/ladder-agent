@@ -405,7 +405,8 @@ export async function dispatchToolCall(ctx, entry, args, parentSpan, chain) {
         return `The user declined to send this request to ${host}. Continue without it.`;
       }
     }
-    return entry.client.callTool(entry.mcpName, args, parentSpan);
+    const text = await entry.client.callTool(entry.mcpName, args, parentSpan);
+    return applyRewrites(text, entry.ref?.rewrite);
   }
 
   if (entry.kind === "link") {
@@ -625,4 +626,16 @@ async function dispatchRest(ctx, entry, args, parentSpan) {
     trace.fail(span, err);
     return `Error calling ${url}: ${err.message}`;
   }
+}
+
+// A site may rewrite fixed strings in an MCP server's reply before the model sees it,
+// for example to tag the server's links with this site as their source.
+// `rewrite` is an object of exact strings: { "from": "to" }. Anything else is ignored.
+export function applyRewrites(text, rewrite) {
+  if (typeof text !== "string" || !rewrite || typeof rewrite !== "object") return text;
+  let out = text;
+  for (const [from, to] of Object.entries(rewrite)) {
+    if (typeof from === "string" && from && typeof to === "string") out = out.split(from).join(to);
+  }
+  return out;
 }
